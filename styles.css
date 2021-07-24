@@ -83,6 +83,10 @@ input:nth-of-type(2) {
   font-size: 1rem;
   background-color: rgb(22, 22, 22);
   color: #fff;
+  filter: drop-shadow(0 0 0.2rem rgba(109, 107, 107, 0.904));
+}
+input:nth-of-type(2):hover {
+  filter: drop-shadow(0 0 0.8rem rgba(82, 81, 81, 0.863));
 }
 .sign-up-text {
   margin: 20px auto;
@@ -206,6 +210,7 @@ footer a {
 @media only screen and (min-width: 576px) {
   .container {
     width: 576px;
+    margin: 0 auto;
   }
 
   .landing-page-view {
@@ -254,6 +259,7 @@ footer a {
 @media only screen and (min-width: 768px) {
   .container {
     width: 768px;
+    margin: 0 auto;
   }
 
   .landing-page-view {
@@ -330,8 +336,11 @@ footer a {
 /* Tablet Media Query 992px *********** */
 
 @media only screen and (min-width: 992px) {
+  body {
+  }
   .container {
     width: 992px;
+    margin: 0 auto;
   }
 
   .landing-page-view {
