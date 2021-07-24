@@ -352,6 +352,9 @@ footer a {
   .sign-up-text {
     width: 55%;
   }
+  .features-inner-section {
+    margin: 0 auto;
+  }
   .feature-section {
     width: 992px;
     margin: 30px auto;
@@ -371,6 +374,7 @@ footer a {
 @media only screen and (min-width: 1200px) {
   .container {
     width: 1200px;
+    margin: 0 auto;
   }
 
   .landing-page-view {
